@@ -43,3 +43,11 @@ a {
 :root {
     --box-shadow: #929596 0px 6px 6px 0px;
 }
+
+img {
+    max-width: 100%;
+    display: block;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    margin: 30px auto;
+}
