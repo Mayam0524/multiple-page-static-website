@@ -31,6 +31,11 @@ a {
     box-shadow: var(--box-shadow);
 }
 
+a:hover {
+    text-decoration: underline;
+    color: bisque;
+}
+
 .email {
     color: plum;
     background-color: transparent;
